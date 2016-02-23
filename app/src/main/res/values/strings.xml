@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Fragment Example</string>
+    <string name="mainFragmentText">This is an XML inflated fragment</string>
+    <string name="mainFragmentButton">Go to Second Activity</string>
+    <string name="secondActivityButton">Show Fragment</string>
+    <string name="secondFragmentText">This is a Fragment inflated in code</string>
+</resources>
