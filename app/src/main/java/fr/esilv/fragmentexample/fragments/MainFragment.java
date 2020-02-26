@@ -3,12 +3,12 @@ package fr.esilv.fragmentexample.fragments;
 import android.app.Fragment;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import androidx.annotation.Nullable;
 import fr.esilv.fragmentexample.R;
 import fr.esilv.fragmentexample.activities.SecondActivity;
 
@@ -25,7 +25,7 @@ public class MainFragment extends Fragment {
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        mainFragmentButton = (Button) view.findViewById(R.id.mainFragmentButton);
+        mainFragmentButton = view.findViewById(R.id.mainFragmentButton);
         mainFragmentButton.setOnClickListener(new OnMainFragmentButtonClickListener());
     }
 

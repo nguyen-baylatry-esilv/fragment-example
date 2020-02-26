@@ -3,9 +3,9 @@ package fr.esilv.fragmentexample.activities;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import androidx.appcompat.app.AppCompatActivity;
 import fr.esilv.fragmentexample.R;
 import fr.esilv.fragmentexample.fragments.SecondFragment;
 
